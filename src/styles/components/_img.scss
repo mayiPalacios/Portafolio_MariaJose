@@ -1,0 +1,32 @@
+#hero {
+    width: 100%;
+    position: relative;
+    height: 50vh;
+    z-index: 20;
+    background-size: cover;
+    padding: 0 15px;
+ 
+
+}
+.skills .progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: all 0.9s ease 0s;
+    background-color: rgb(221, 90, 146);
+}
+section {
+    padding: 60px 0px;
+}
+
+.section-bg {
+    background: linear-gradient(rgb(242, 246, 249) 0%, rgb(255, 255, 255) 100%);
+}
+
+h1{
+    font-family: "Playfair Display", serif;
+}
+
+h2{
+    font-family: "Poppins", sans-serif;
+}
+
