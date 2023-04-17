@@ -1,7 +1,11 @@
 @import "~bootstrap/scss/bootstrap";
 @import "./components/img";
+@import "./components/tittles";
+@import "./components/events";
+@import "./components/resume";
+@import "./components/portafolio";
 
 body {
-  font-family: "Open Sans", sans-serif;
-  color: rgb(90, 101, 110);
+    font-family: "Open Sans", sans-serif;
+    color: rgb(90, 101, 110);
 }
