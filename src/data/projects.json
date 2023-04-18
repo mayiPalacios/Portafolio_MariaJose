@@ -1,0 +1,96 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "title": "week 0",
+            "img": "",
+            "url": "https://applaudo-git-lab-12y4-ae8x8zile-mayipalacios.vercel.app/ezfood.html",
+            "layout": "Fullscreen",
+            "tags": [
+                
+                
+            ]
+        },
+        {
+            "id": "2",
+            "title": "week 1",
+            "img": "",
+            "url": "https://week1-project-qh3y2xre2-mayipalacios.vercel.app/form.html",
+            "layout": "flex",
+            "tags": [
+                "js"
+            ]
+        },
+        {
+            "id": "3",
+            "title": "week 2",
+            "img": "",
+            "url": "https://trained-week2-o2n4zsx74-mayipalacios.vercel.app/card.html",
+            "layout": "Grid",
+            "tags": [
+                "js"
+            ]
+        },
+        {
+            "id": "4",
+            "title": "week 3",
+            "img": "",
+            "url": "https://project-w3-ww6knbyvx-mayipalacios.vercel.app/",
+            "layout": "flex",
+            "tags": [
+                "js"
+            ]
+        },
+        {
+            "id": "5",
+            "title": "week 4",
+            "img": "",
+            "url": "https://week4-xa8j-eor0qz7d4-mayipalacios.vercel.app/",
+            "layout": "flex",
+            "tags": [
+                "js"
+            ]
+        },
+        {
+            "id":"6",
+            "title":"week 5",
+            "img":"",
+            "url": "https://week-homework5-ocbfy8v27-mayipalacios.vercel.app/",
+            "tags": [
+                "js"
+            ]
+        },{
+            "id":"7",
+            "title":"week 6",
+            "img":"",
+            "url": "https://week6-m3zmpqfvm-mayipalacios.vercel.app/",
+            "tags": [
+                "ts"
+            ]
+        },{
+            "id":"8",
+            "title":"week 7",
+            "img":"",
+            "url": "https://week7-7bgy-dfm5hwghq-mayipalacios.vercel.app/",
+            "tags": [
+                "ts"
+            ]
+        },{
+            "id":"9",
+            "title":"week 8",
+            "img":"",
+            "url": "https://week8-i73b-81g217x6d-mayipalacios.vercel.app/",
+            "tags": [
+                "ts"
+            ]
+        },{
+            "id":"10",
+            "title":"week 9",
+            "img":"",
+            "url": "https://week9-mocha.vercel.app/",
+            "tags": [
+                "ts","testing"
+            ]
+        }
+    ]
+}

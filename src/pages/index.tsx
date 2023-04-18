@@ -1,11 +1,12 @@
 import * as React from "react";
 import "../styles/bootstrap.scss";
-import type { HeadFC, PageProps } from "gatsby";
+import { HeadFC, PageProps, graphql, useStaticQuery } from "gatsby";
 import Header from "../components/Header/header";
 import SectionAboutMe from "../components/layout/sectionAboutMe";
 import SkillsMe from "../components/layout/skillsMe";
 import Resume from "../components/layout/resume";
 import Portafolio from "../components/layout/portafolio";
+import { useEffect } from "react";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
@@ -16,7 +17,7 @@ const IndexPage: React.FC<PageProps> = () => {
       <div>
         <SectionAboutMe />
       </div>
-      
+
       <div>
         <SkillsMe />
       </div>
@@ -24,7 +25,7 @@ const IndexPage: React.FC<PageProps> = () => {
         <Resume />
       </div>
       <div>
-        <Portafolio/>
+        <Portafolio />
       </div>
     </div>
   );
