@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { graphql, useStaticQuery } from "gatsby";
+import { GatsbyImageProps, StaticImage, getImage } from "gatsby-plugin-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 
 type QueryDataType = {
   allDataJson: {
@@ -8,6 +10,10 @@ type QueryDataType = {
         users: [
           {
             title: string;
+            img: any;
+            url: string;
+            layout: string;
+            tags: [];
           }
         ];
       }
@@ -22,13 +28,21 @@ const Portafolio = () => {
         nodes {
           users {
             title
+            img {
+              childImageSharp {
+                gatsbyImageData(width: 800, placeholder: BLURRED)
+              }
+            }
+            url
+            layout
+            tags
           }
         }
       }
     }
   `);
 
-  console.log(data.allDataJson.nodes[0]);
+  console.log(data.allDataJson.nodes[0].users[0].img);
 
   return (
     <section id="portfolio" className="portfolio section-bg">
@@ -54,18 +68,18 @@ const Portafolio = () => {
           {data.allDataJson.nodes[0].users.map((data) => (
             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
               <div className="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-1.jpg"
-                  className="img-fluid"
+                <GatsbyImage
                   alt=""
+                  image={getImage(data.img)!} /*className="img-fluid"*/
                 />
+
                 <div className="portfolio-info">
                   <h4>{data.title}</h4>
                   <p>App</p>
                 </div>
                 <div className="portfolio-links">
                   <a
-                    href="assets/img/portfolio/portfolio-1.jpg"
+                    href={data.url}
                     data-gallery="portfolioGallery"
                     className="portfolio-lightbox"
                     title="App 1"

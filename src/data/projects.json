@@ -3,7 +3,7 @@
         {
             "id": 1,
             "title": "week 0",
-            "img": "",
+            "img": "../images/week0-img.png",
             "url": "https://applaudo-git-lab-12y4-ae8x8zile-mayipalacios.vercel.app/ezfood.html",
             "layout": "Fullscreen",
             "tags": [
@@ -14,7 +14,7 @@
         {
             "id": "2",
             "title": "week 1",
-            "img": "",
+            "img": "https://vanacco.com/wp-content/uploads/2020/06/Form-1.jpg",
             "url": "https://week1-project-qh3y2xre2-mayipalacios.vercel.app/form.html",
             "layout": "flex",
             "tags": [

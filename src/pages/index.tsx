@@ -7,6 +7,7 @@ import SkillsMe from "../components/layout/skillsMe";
 import Resume from "../components/layout/resume";
 import Portafolio from "../components/layout/portafolio";
 import { useEffect } from "react";
+import Contact from "../components/layout/contact";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
@@ -26,6 +27,9 @@ const IndexPage: React.FC<PageProps> = () => {
       </div>
       <div>
         <Portafolio />
+      </div>
+      <div>
+        <Contact />
       </div>
     </div>
   );

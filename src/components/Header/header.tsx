@@ -7,16 +7,20 @@ const Header = () => {
       <section
         id="hero"
         className="d-flex flex-column align-items-center justify-content-center"
-        
       >
         <StaticImage
-        id="static__img"
-          style={{ position: "absolute", zIndex: -1,objectFit:"cover",width:"100%",height:"100%",top:"0"
-        }}
+          id="static__img"
+          style={{
+            position: "absolute",
+            zIndex: -1,
+            backgroundPosition: "25% 75%",
+            width: "100%",
+            height: "100%",
+          }}
           alt="principal-img"
           src="../../images/imgP.jpg"
         />
-        <div   style={{  zIndex: 20,color:"white"}}>
+        <div style={{ zIndex: 20, color: "black" }}>
           <h1>Hi, I'm Majo!</h1>
           <h2>I am a Frontend Developer</h2>
           <a href="#about" className="btn-get-started scrollto">
