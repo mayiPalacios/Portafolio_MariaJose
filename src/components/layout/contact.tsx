@@ -13,7 +13,7 @@ const Contact = () => {
         <div className="section-title">
           <h2>Contact</h2>
         </div>
-        <div className="d-flex align-items-center">
+        <div className="d-flex gap-2 align-items-center">
           <FontAwesomeIcon icon={faPhone} />
           <p className="m-0">+503 70411207</p>
           <span className="mx-2">|</span>
