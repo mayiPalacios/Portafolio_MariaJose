@@ -77,29 +77,28 @@ const Portafolio = () => {
           <div className="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li
-                data-filter="*"
                 className="filter-active"
                 onClick={() => handleFilterClick("")}
               >
-                All
+                <span>All</span>
               </li>
               <li
-                data-filter=".filter-app"
+                className="filter-active"
                 onClick={() => handleFilterClick("js")}
               >
-                JS
+                <span>JS</span>
               </li>
               <li
-                data-filter=".filter-card"
+                className="filter-active"
                 onClick={() => handleFilterClick("ts")}
               >
-                TS
+                <span> TS</span>
               </li>
               <li
-                data-filter=".filter-web"
+                className="filter-active"
                 onClick={() => handleFilterClick("testing")}
               >
-                Testing
+                <span>Testing</span>
               </li>
             </ul>
           </div>
@@ -107,16 +106,24 @@ const Portafolio = () => {
 
         <div className="row portfolio-container ">
           {filteredProjects.map((data) => (
-            <div className="col-lg-4 col-md-6 portfolio-item filter-app  mb-1 ">
-              <div id="imagen" className="portfolio-wrap">
-                <a id="info" className="nuestrocontenedor" href={data.url}>
+            <div
+              className="col-lg-4 col-md-6 portfolio-item filter-app  mb-4 "
+              style={{ height: "30vh" }}
+            >
+              <div id="imagen" className="portfolio-wrap  mb-4">
+                <a
+                  id="info"
+                  className="container__data--projects "
+                  href={data.url}
+                >
                   <GatsbyImage
+                    style={{ height: "30vh" }}
                     alt=""
                     image={getImage(data.img)!}
-                    className="img-fluid nuestraimagen"
+                    className="img-fluid img__project"
                   ></GatsbyImage>
-                  <div className="portfolio-info  nuestrobloque ">
-                    <h4 className="nuestrotexto">{data.title}</h4>
+                  <div className="portfolio-info  container__tittle ">
+                    <h4 className="title__project">{data.title}</h4>
                   </div>
                 </a>
               </div>

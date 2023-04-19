@@ -48,6 +48,10 @@ const config: GatsbyConfig = {
         path: `${__dirname}/src/data`,
       },
     },
+    {
+      resolve: `gatsby-plugin-create-client-paths`,
+      options: { prefixes: [`/404/*`] },
+    },
   ],
 };
 

@@ -22,12 +22,15 @@ const IndexPage: React.FC<PageProps> = () => {
       <div>
         <SkillsMe />
       </div>
+
       <div>
         <Resume />
       </div>
+
       <div>
         <Portafolio />
       </div>
+
       <div>
         <Contact />
       </div>

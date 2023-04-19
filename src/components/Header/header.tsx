@@ -20,6 +20,7 @@ const Header = () => {
           alt="principal-img"
           src="../../images/imgP.jpeg"
         />
+
         <div style={{ zIndex: 20, color: "white" }}>
           <h1>Hi, I'm Majo!</h1>
           <h2>I am a Frontend Developer</h2>

@@ -8,12 +8,6 @@
   padding: 2px 15px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.08);
 }
-.portfolio .portfolio-wrap {
-  transition: 0.3s;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-}
 
 .portfolio #portfolio-flters li {
   cursor: pointer;
@@ -28,23 +22,23 @@
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li.filter-active {
+li span:active,
+li span:focus {
   color: #d43076;
 }
-
 /* */
 
-.nuestrocontenedor {
+.container__data--projects {
   position: relative;
 }
 
-.nuestraimagen {
+.img__project {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.nuestrobloque {
+.container__tittle {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -57,7 +51,7 @@
   background-color: rgba(44, 73, 100, 0.6);
 }
 
-.nuestrotexto {
+.title__project {
   color: white;
   font-size: 20px;
   position: absolute;
@@ -69,6 +63,6 @@
   text-align: center;
 }
 
-.nuestrocontenedor:hover .nuestrobloque {
+.container__data--projects:hover .container__tittle {
   opacity: 1;
 }

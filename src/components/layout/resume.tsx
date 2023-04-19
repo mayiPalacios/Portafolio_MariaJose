@@ -67,9 +67,9 @@ const Resume = () => {
                 help students with their difficulties in the subjects.
               </p>
             </div>
+
             <div className="resume-item">
               <h4>PERSONAL SKILLS</h4>
-
               <p>
                 <ul>
                   <li>English- Intermediate Currently studying</li>
