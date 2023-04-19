@@ -78,7 +78,7 @@ const SkillsMe = () => {
 
             <div className="progress">
               <span className="skill">
-                React TS <i className="val">80%</i>
+                React TS <i className="val">85%</i>
               </span>
               <div className="progress-bar-wrap">
                 <div
