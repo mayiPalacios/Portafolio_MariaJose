@@ -2,7 +2,7 @@
     "users": [
         {
             "id": 1,
-            "title": "week 0",
+            "title": "css project",
             "img": "../images/week0-img.png",
             "url": "https://applaudo-git-lab-12y4-ae8x8zile-mayipalacios.vercel.app/ezfood.html",
             "layout": "Fullscreen",
@@ -13,7 +13,7 @@
         },
         {
             "id": "2",
-            "title": "week 1",
+            "title": "form project",
             "img": "../images/week1-img.png",
             "url": "https://week1-project-qh3y2xre2-mayipalacios.vercel.app/form.html",
             "layout": "flex",
@@ -23,7 +23,7 @@
         },
         {
             "id": "3",
-            "title": "week 2",
+            "title": "Notices Project",
             "img": "../images/week2-img.png",
             "url": "https://trained-week2-o2n4zsx74-mayipalacios.vercel.app/card.html",
             "layout": "Grid",
@@ -33,7 +33,7 @@
         },
         {
             "id": "4",
-            "title": "week 3",
+            "title": "character projects",
             "img": "../images/week3-img.png",
             "url": "https://project-w3-ww6knbyvx-mayipalacios.vercel.app/",
             "layout": "flex",
@@ -43,7 +43,7 @@
         },
         {
             "id": "5",
-            "title": "week 4",
+            "title": "Game projects css",
             "img": "../images/week4-img.png",
             "url": "https://week4-xa8j-eor0qz7d4-mayipalacios.vercel.app/",
             "layout": "flex",
@@ -53,7 +53,7 @@
         },
         {
             "id":"6",
-            "title":"week 5",
+            "title":"Game project",
             "img":"../images/week5-img.png",
             "url": "https://week-homework5-ocbfy8v27-mayipalacios.vercel.app/",
             "tags": [
@@ -61,7 +61,7 @@
             ]
         },{
             "id":"7",
-            "title":"week 6",
+            "title":"Ts game project",
             "img":"../images/week5-img.png",
             "url": "https://week6-m3zmpqfvm-mayipalacios.vercel.app/",
             "tags": [
@@ -69,7 +69,7 @@
             ]
         },{
             "id":"8",
-            "title":"week 7",
+            "title":"TimeMachine and Tictactoe project",
             "img":"../images/week7-img.png",
             "url": "https://week7-7bgy-dfm5hwghq-mayipalacios.vercel.app/",
             "tags": [
@@ -77,7 +77,7 @@
             ]
         },{
             "id":"9",
-            "title":"week 8",
+            "title":"Comic project",
             "img":"../images/week8-img.png",
             "url": "https://week8-i73b-81g217x6d-mayipalacios.vercel.app/",
             "tags": [
@@ -85,11 +85,19 @@
             ]
         },{
             "id":"10",
-            "title":"week 9",
+            "title":"Comic testing project",
             "img":"../images/week8-img.png",
             "url": "https://week9-mocha.vercel.app/",
             "tags": [
                 "ts","testing"
+            ]
+        },{
+            "id":"11",
+            "title":"TMDB movies and TV SHOWS",
+            "img":"../images/movies-tvshow.png",
+            "url": "https://last-homework.vercel.app/",
+            "tags": [
+                "ts","testing","nextjs"
             ]
         }
     ]

@@ -96,6 +96,12 @@ const Portafolio = () => {
               </li>
               <li
                 className="filter-active"
+                onClick={() => handleFilterClick("nextjs")}
+              >
+                <span>Next JS</span>
+              </li>
+              <li
+                className="filter-active"
                 onClick={() => handleFilterClick("testing")}
               >
                 <span>Testing</span>
