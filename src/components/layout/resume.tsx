@@ -11,7 +11,7 @@ const Resume = () => {
         <div className="row">
           <div className="col-lg-6">
             <h3 className="resume-title">EDUCATION</h3>
-            <div className="resume-item pb-0">
+            <div className="resume-item pb-1">
               <h4>2019-CURRENT</h4>
               <p>
                 <em>Universidad Centroamericana José Simeón Cañas</em>
@@ -28,37 +28,34 @@ const Resume = () => {
               </p>
             </div>
 
-            <h3 className="resume-title">EXTRACURRICULAR</h3>
-            <div className="resume-item">
-              <h4>F E Y ALEGRIA</h4>
-              <h5>2022</h5>
+            <div className="resume-item  pb-0">
+              <h4>Applaudo Studios - React Trainee Program</h4>
+              <h5>JAN 2023 - MAY 2023</h5>
 
               <p>
-                Fe y Alegría is a Movement for Comprehensive Popular Education
-                and Social Promotion whose action is directed at impoverished
-                and excluded sectors to enhance their personal development and
-                social participation. My role in this project was to provide
-                support in electronic equipment and activities at the service of
-                these communities.
+                Main keys: Component Lifecycle State Management and Hooks React
+                Router Performance Optimization: Lazy loading, code splitting,
+                and memoization. Unit Testing: Jest TypeScript Gatsby and NextJs
               </p>
             </div>
             <div className="resume-item">
-              <h4>FLEXIBLE MODALITY PROGRAM</h4>
-              <h5>2022</h5>
+              <h3 className="resume-title">Work experience</h3>
+              <h4>Automation Developer - million</h4>
+              <h5>Oct 2022 - Dic 2022</h5>
 
               <p>
-                It consists of offering various educational alternatives, from
-                Basic Education to High School, for all those people who for
-                some reason left their studies, and who today wish to resume
-                them.My role in this program was to provide support teachers and
-                students in different activities like resources and help with
-                general document management
+                Developed an automated process for streamlining data entry and
+                validation using JavaScript and libraries like Puppeteer and
+                Cheerio for web scraping and data extraction tasks, reducing
+                manual effort and increasing data accuracy, while employing
+                Agile methodology to enhance team collaboration and workflow.
               </p>
             </div>
           </div>
           <div className="col-lg-6">
+            <h3 className="resume-title">EXTRACURRICULAR</h3>
             <div className="resume-item">
-              <h4>INSTRUCTOR</h4>
+              <h4>Teaching assitant</h4>
 
               <p>
                 I was an instructor in Fundamentals of programming and
