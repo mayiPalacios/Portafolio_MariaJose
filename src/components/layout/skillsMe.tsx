@@ -11,9 +11,7 @@ const SkillsMe = () => {
         <div className="row skills-content">
           <div className="col-lg-6">
             <div className="progress">
-              <span className="skill">
-                HTML <i className="val">100%</i>
-              </span>
+              <span className="skill">HTML</span>
               <div className="progress-bar-wrap">
                 <div
                   className="progress-bar"
@@ -27,15 +25,13 @@ const SkillsMe = () => {
             </div>
 
             <div className="progress">
-              <span className="skill">
-                CSS <i className="val">70%</i>
-              </span>
+              <span className="skill">SCSS</span>
               <div className="progress-bar-wrap">
                 <div
-                  style={{ width: "70%" }}
+                  style={{ width: "100%" }}
                   className="progress-bar"
                   role="progressbar"
-                  aria-valuenow={70}
+                  aria-valuenow={100}
                   aria-valuemin={0}
                   aria-valuemax={100}
                 ></div>
@@ -43,15 +39,13 @@ const SkillsMe = () => {
             </div>
 
             <div className="progress">
-              <span className="skill">
-                JavaScript <i className="val">80%</i>
-              </span>
+              <span className="skill">JavaScript</span>
               <div className="progress-bar-wrap">
                 <div
-                  style={{ width: "80%" }}
+                  style={{ width: "100%" }}
                   className="progress-bar"
                   role="progressbar"
-                  aria-valuenow={80}
+                  aria-valuenow={100}
                   aria-valuemin={0}
                   aria-valuemax={100}
                 ></div>
@@ -61,15 +55,13 @@ const SkillsMe = () => {
 
           <div className="col-lg-6">
             <div className="progress">
-              <span className="skill">
-                MySQL <i className="val">50%</i>
-              </span>
+              <span className="skill">MySQL</span>
               <div className="progress-bar-wrap">
                 <div
-                  style={{ width: "75%" }}
+                  style={{ width: "100%" }}
                   className="progress-bar"
                   role="progressbar"
-                  aria-valuenow={50}
+                  aria-valuenow={100}
                   aria-valuemin={0}
                   aria-valuemax={100}
                 ></div>
@@ -77,15 +69,13 @@ const SkillsMe = () => {
             </div>
 
             <div className="progress">
-              <span className="skill">
-                React TS <i className="val">85%</i>
-              </span>
+              <span className="skill">React TS</span>
               <div className="progress-bar-wrap">
                 <div
-                  style={{ width: "80%" }}
+                  style={{ width: "100%" }}
                   className="progress-bar"
                   role="progressbar"
-                  aria-valuenow={80}
+                  aria-valuenow={100}
                   aria-valuemin={0}
                   aria-valuemax={100}
                 ></div>
@@ -93,15 +83,13 @@ const SkillsMe = () => {
             </div>
 
             <div className="progress">
-              <span className="skill">
-                knowledge of dynamic programming <i className="val">55%</i>
-              </span>
+              <span className="skill">Next js and gatsby</span>
               <div className="progress-bar-wrap">
                 <div
-                  style={{ width: "55%" }}
+                  style={{ width: "100%" }}
                   className="progress-bar"
                   role="progressbar"
-                  aria-valuenow={55}
+                  aria-valuenow={100}
                   aria-valuemin={0}
                   aria-valuemax={100}
                 ></div>
